@@ -12,7 +12,9 @@
     "import-html-entry": "^1.11.1",
     "qiankun": "^2.5.1",
     "vue": "^2.6.11",
-    "vue-router": "^3.5.3"
+    "vue-router": "^3.5.3",
+    "whatwg-fetch":"3.6.2",
+    "custom-event-polyfill":"1.0.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

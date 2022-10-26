@@ -2,6 +2,12 @@ import Vue from "vue";
 import App from "./App.vue";
 import routes from "./routes";
 import store from "./store";
+import 'whatwg-fetch';
+import 'custom-event-polyfill';
+import 'core-js/stable/promise';
+import 'core-js/stable/symbol';
+import 'core-js/stable/string/starts-with';
+import 'core-js/web/url';
 
 Vue.config.productionTip = false;
 Vue.config.$store = store;

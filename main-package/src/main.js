@@ -2,8 +2,15 @@ import Vue from "vue";
 import App from "./App.vue";
 import VueRouter from "vue-router";
 import router from "./router";
+import 'whatwg-fetch';
+import 'custom-event-polyfill';
+import 'core-js/stable/promise';
+import 'core-js/stable/symbol';
+import 'core-js/stable/string/starts-with';
+import 'core-js/web/url';
 // import { registerMicroApps, start } from "qiankun";
 // import { appList } from "./microApp";
+
 
 Vue.config.productionTip = false;
 
