@@ -1,0 +1,2 @@
+(window["webpackJsonp_sub-app1"]=window["webpackJsonp_sub-app1"]||[]).push([["chunk-2d0c14f9"],{4601:function(e,n,c){"use strict";c.r(n);var t=function(){var e=this,n=e.$createElement,c=e._self._c||n;return c("div",[e._v("我是子应用的仪表盘")])},u=[],p={},s=p,a=c("0c7c"),r=Object(a["a"])(s,t,u,!1,null,"5525e587",null);n["default"]=r.exports}}]);
+//# sourceMappingURL=chunk-2d0c14f9.4d06fb11.js.map
