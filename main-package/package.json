@@ -3,18 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "node ./node_modules/@vue/cli-service/bin/vue-cli-service.js serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "babel-polyfill": "6.26.0",
     "core-js": "^3.6.5",
+    "custom-event-polyfill": "1.0.7",
     "import-html-entry": "^1.11.1",
     "qiankun": "^2.5.1",
+    "regenerator-runtime": "0.13.9",
     "vue": "^2.6.11",
     "vue-router": "^3.5.3",
-    "whatwg-fetch":"3.6.2",
-    "custom-event-polyfill":"1.0.7"
+    "whatwg-fetch": "3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
